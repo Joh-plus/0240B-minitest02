@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>第2回 小テスト - シゴトがはかどる Python自動処理の教科書</title> <!-- 変更箇所 -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- メインスタイル -->
+  <link rel="stylesheet" href="css/style_timeline_tl_final.css" />
+</head>
+
+<body>
+  <header>
+    <h1>【 第2回_小テスト シゴトがはかどる Python自動処理の教科書 】</h1>
+    <button class="humb" aria-label="オプションメニューを開閉">
+      <span class="humb__line humb__line--top"></span>
+      <span class="humb__line humb__line--mid"></span>
+      <span class="humb__line humb__line--bottom"></span>
+    </button>
+  </header>
+
+  <div class="contents">
+    <!-- 試験概要 -->
+    <div class="contents__heading">
+      <h2>
+        試験概要
+        <span>（クリックで開閉）</span>
+      </h2>
+      <div class="info">
+        <dl class="info__list">
+          <dt>実施施設</dt>
+          <dd>フロンティア・アカデミー福岡校</dd>
+          <dt>試験時間</dt>
+          <dd>45分間</dd>
+          <dt>合格点</dt>
+          <dd>80点（100点満点中）</dd>
+        </dl>
+      </div>
+    </div>
+
+    <!-- タブ（廃止：タイムライン1ページ化） -->
+    <!-- パネル（タイムライン） -->
+    <div class="page-layout">
+      <!-- メイン（タイムライン） -->
+      <main class="timeline" aria-label="手順一覧">
+      <!-- 1:はじめに -->
+      <section id="step1" class="timeline-item">
+          <div class="timeline-tag" aria-hidden="true"><span>手順1</span></div>
+          <div class="timeline-rail" aria-hidden="true"><span class="timeline-dot">1</span></div>
+          <div class="timeline-content">
+            <div class="question">
+          <div class="question__heading">
+            <h3>
+              <span class="panel-title">自動出力</span>
+              注意事項
+            </h3>
+            <p>以下の注意事項を一読の上、試験に臨んでください。</p>
+          </div>
+          <div class="question__item">
+            <h4 class="fontB">
+              <span class="radio-button"></span>
+              持ち込み資料について
+            </h4>
+            <p>
+              下記資料のみ持ち込み可とします。
+            </p>
+            <p class="emphasis-book book-with-image boxb">
+              <span class="book-title">シゴトがはかどる Python自動処理の教科書</span> <!-- 変更箇所 -->
+              <img src="images/image_python_2.jpg" alt="" class="book-image" />
+            </p>
+          </div>
+          <div class="question__item">
+            <h4>
+              <span class="radio-button"></span>
+              Webの使用について
+            </h4>
+            <p>試験中はWeb検索やAIチャットの使用は禁止です。</p>
+          </div>
+          <div class="question__item">
+            <h4>
+              <span class="radio-button"></span>
+              使用エディタについて
+            </h4>
+            <!-- <p>Google Colaboratory（※自身のGoogleアカウントにログインして実行する）</p> -->
+             <p>下記のエディタを使用してください。<br>ただし、各エディタの使用方法及び設定等については試験中は答えられないので注意して下さい。</p>
+
+            <ul class="editor-list">
+              <li class="icon-vscode">Microsoft Visual Studio Code</li>
+              <li class="icon-jupyter">jupyter notebook</li>
+              <li class="icon-colab">Google Colaboratory</li>
+              <li class="icon-other">その他Pythonのコードを書いて.pyファイルとして保存できるもの</li>
+            </ul>
+
+            <ul class="mTop">
+              <li class="td-on">AIエディタの使用は禁止とします。</li>
+              <li class="td-on">VS codeなどを使用する場合でもサイドパネルなどを開いてのAIによるコード修正は禁止です。</li>
+            </ul>
+
+          </div>
+          <div class="question__item">
+            <h4>
+              <span class="radio-button"></span>
+              注意事項
+            </h4>
+            <ul>
+              <li class="td-on">
+                指定箇所や、必要な修正箇所以外はコードに変更を加えないこと。（不必要な変更を加えないこと）
+              </li>
+              <li class="td-on">ファイル名やフォルダ名を変更しないこと。</li>
+              <li class="td-on">問題文やデータソースを変更しないこと。</li>
+            </ul>
+          </div>
+        </div>
+          </div>
+        </section>
+
+      <!-- 2:試験問題ダウンロード -->
+      <section id="step2" class="timeline-item">
+          <div class="timeline-tag" aria-hidden="true"><span>手順2</span></div>
+          <div class="timeline-rail" aria-hidden="true"><span class="timeline-dot">2</span></div>
+          <div class="timeline-content">
+            <div class="question">
+          <div class="question__heading">
+            <h3>
+              <span class="panel-title">手順n (自動出力)</span>
+              試験データのダウンロード
+            </h3>
+            <p>以下の手順に従い、試験データをダウンロードして下さい。</p>
+          </div>
+          <div class="question__item">
+            <h4>
+              <span class="panel-sub-title">自動出力</span>
+            </h4>
+            <p class="phphtml2">下記リンクより、試験データをダウンロードして解凍して下さい。</p>
+            <p class="phphtml2">
+              ※トラブルなどでダウンロードができない場合は、速やかに試験監督を呼んで下さい。
+            </p>
+            <p class="phphtml2" style="margin-top: 1em">
+              <a href="fr-test02-python.zip" target="_blank" class="link-button">
+                試験データダウンロードはこちら
+              </a>
+            </p>
+            <!-- <p class="phphtml2" style="margin-top: 1em">
+              ■ ファイル名：『fr-test06-python2.zip』
+            </p> -->
+            <p class="phphtml2" style="margin-top: 1em">
+              ■ ファイル名：『fr-test02-python.zip』
+            </p>
+          </div>
+
+          <div class="question__item">
+            <h4>
+              <span class="panel-sub-title">自動出力</span>
+            </h4>
+            <p>
+              解凍した試験データのフォルダを開き、下記ファイルが全て入っていることを確認する。
+            </p>
+            <p>※ファイルが不足している場合や、不具合が起きた場合は速やかに試験監督を呼ぶこと。</p>
+            <br />
+            <p class="table-caption">&lt;構成ファイル&gt;</p>
+            <table class="question-table question-table--three-cols">
+              <tr>
+                <th>フォルダ</th>
+                <th>ファイル（合計12ファイル）</th>
+              </tr>
+              <tr>
+                 <td>fr-test02-python</td> <!-- 変更箇所 -->
+                <td class="bg-th">
+                  <ul class="file-list">
+                    <li>_selenium_teisei.py</li>
+                    <li>donage.png</li>
+                    <li>q1.py</li>
+                    <li>q2.py</li>
+                    <li>q2.xlsx</li>
+                    <li>q3.py</li>
+                    <li>q4.py</li>
+                    <li>q4.xlsx</li>
+                    <li>q5.py</li>
+                    <li>q6.py</li>
+                    <li>universe.css</li>
+                    <li>universe.html</li>
+                  </ul>
+                </td>
+              </tr>
+
+            </table>
+            
+            <!-- <table class="question-table question-table--three-cols">
+              <tr>
+                <th>親フォルダ</th>
+                <th>子フォルダ</th>
+                <th>孫フォルダ</th>
+                <th>各ファイル</th>
+              </tr>
+              <tr>
+                <td rowspan="4">fr-test01-python</td>
+                <td rowspan="2">chapter-1</td>
+                <td>data</td>
+                <td>交通事故_2024.csv</td>
+              </tr>
+              <tr>
+                <td>src</td>
+                <td>MiniTest.ipynb</td>
+              </tr>
+              <tr>
+                <td rowspan="2">chapter-2</td>
+                <td>data</td>
+                <td>福岡県人口移動調査.xlsx</td>
+              </tr>
+              <tr>
+                <td>src</td>
+                <td>MiniTest_2.ipynb</td>
+              </tr>
+            </table> -->
+          </div>
+
+          <div class="question__item">
+            <h4>
+              <span class="panel-sub-title">自動出力</span>
+            </h4>
+            <!-- <p>
+              データを確認したら元のフォルダ（fr-test06-python2）ごと、ご自身のGoogleドライブにアップロードしてください。
+            </p> -->
+            <p>データを確認したらご自身が使用するエディタの環境にフォルダごとセットアップして下さい。</p>
+            <!-- <p>
+              ※フォルダは
+              <span class="point2">マイドライブの直下</span>
+              にアップロードしてください。
+            </p> -->
+            <p>
+              ※Pythonの実行場所と.pyファイルがある場所が<span class="point2">同じ場所</span>になるようにして下さい。
+            </p>
+          </div>
+
+          <div class="question__item">
+            <h4>
+              <span class="panel-sub-title">自動出力</span>
+            </h4>
+            <p>手順2-3にて問題がなければ、試験監督の試験開始の合図があるまで待機する。</p>
+            <p>合図があるまで、ファイルを開かないこと。</p>
+            <p>試験開始の合図とともに、【手順3】へ進む。</p>
+          </div>
+        </div>
+          </div>
+        </section>
+
+      <!-- 3:試験開始 -->
+      <section id="step3" class="timeline-item">
+          <div class="timeline-tag" aria-hidden="true"><span>手順3</span></div>
+          <div class="timeline-rail" aria-hidden="true"><span class="timeline-dot">3</span></div>
+          <div class="timeline-content">
+            <div class="question">
+          <div class="question__heading">
+            <h3>
+              <span class="panel-title">手順n (自動出力)</span>
+              試験開始
+            </h3>
+            <p class="emphasis-book">●シゴトがはかどる Python自動処理の教科書</p>
+            <!-- <ul class="notice3">
+              <li>
+                アップロードした『fr-test06-python2』フォルダの中にある『chapter-1』と『chapter-2』はどちらから始めても構いません。
+              </li>
+              <li>
+                それぞれの『src』フォルダの中にあるファイルを
+                <span class="b">右クリック</span>
+                →
+                <span class="b">アプリで開く</span>
+                →
+                <span class="b">Google Colaboratory</span>
+                を選択して作業ウィンドウを開いてください。
+              </li>
+              <li>解答はセルの中に記入してください。セルの数は適宜、増やしても構いません。</li>
+            </ul> -->
+
+            <ul class="notice3">
+              <li>
+                問題ファイルは『q1.py』〜『q6.py』はどれから解答しても構いません。（順番はありません）
+              </li>
+              <li>
+                ファイルそれぞれの中のコメントアウトで書かれた問題文のあとにコードを書いて下さい。
+              </li>
+              <li>書いたコードは<span class="b">必ず実行して</span>問題の指示通りの結果が出るか確認して下さい。</li>
+            </ul>
+          </div>
+
+          <div class="question__item">
+            <h4>
+              <span class="radio-button"></span>
+              全て解答したら手順4に進んで下さい。
+            </h4>
+          </div>
+        </div>
+          </div>
+        </section>
+
+      <!-- 4:ファイルアップロード -->
+      <section id="step4" class="timeline-item">
+          <div class="timeline-tag" aria-hidden="true"><span>手順4</span></div>
+          <div class="timeline-rail" aria-hidden="true"><span class="timeline-dot">4</span></div>
+          <div class="timeline-content">
+            <div class="question">
+          <div class="question__heading">
+            <h3>
+              <span class="panel-title">手順n (自動出力)</span>
+              解答の提出
+            </h3>
+            <p>以下の手順に従い、データを試験監督に提出して下さい。</p>
+          </div>
+
+          <!-- 4-1 -->
+          <div class="question__item">
+            <h4>
+              <span class="panel-sub-title">自動出力</span>
+            </h4>
+            <p>
+              使用エディタで開かれている、すべての試験用フォルダ・ファイルを閉じて下さい。
+              <br />
+              ※<span class="point2">必ず上書き保存をしてから</span> ファイルを閉じて下さい。
+            </p>
+          </div>
+
+          <!-- 4-2 -->
+          <div class="question__item">
+            <h4>
+              <span class="panel-sub-title">自動出力</span>
+            </h4>
+            <p>試験用フォルダを<span class="point2">zip形式</span>で圧縮して下さい。</p>
+          </div>
+
+          <!-- 4-4: ここからフォーム版に置き換え -->
+          <div class="question__item">
+            <h4><span class="panel-sub-title">自動出力</span></h4>
+            <p>下記フォームから、<span class="point2">前の手順で圧縮したzipファイル</span>をアップロードして下さい。</p>
+          </div>
+
+          <!-- ★★★ スタイリッシュ提出フォーム（独立カード化） ★★★ -->
+          <div class="upload-card">
+
+            <h4 class="upload-title">
+              解答ファイル提出フォーム
+            </h4>
+
+            <form id="uploadForm" class="upload-form">
+
+              <div class="form-group">
+                <label>お名前</label>
+                <input type="text" id="nameInput" placeholder="例）大谷翔平" required />
+              </div>
+
+              <div class="form-group">
+                <label>提出ファイル（zip）</label>
+                <div class="file-box">
+                  <input type="file" id="fileInput" accept=".zip" required />
+                </div>
+              </div>
+
+              <button type="submit" class="upload-btn">
+                提出する
+              </button>
+
+              <p id="uploadResult" class="upload-result"></p>
+
+            </form>
+          
+            <script>
+              document.getElementById("uploadForm").addEventListener("submit", async (e) => {
+                e.preventDefault();
+
+                const name = document.getElementById("nameInput").value.trim();
+                const fileInput = document.getElementById("fileInput");
+                const file = fileInput.files[0];
+
+                if (!name || !file) {
+                  alert("名前とファイルを選択してください");
+                  return;
+                }
+
+                if (!file.name.endsWith('.zip')) {
+                  alert("ZIPファイルのみ提出可能です");
+                  return;
+                }
+
+                // ★★★ ファイル → base64変換 ★★★
+                const reader = new FileReader();
+                reader.onload = async function (event) {
+                  const base64 = event.target.result.split(',')[1];  // data:image/...;base64,XXX → XXX部分だけ
+                  const formData = new FormData();
+                  formData.append('name', name);
+                  formData.append('file', base64);  // base64文字列として送信
+                  formData.append('filename', file.name);  // ファイル名も別途送信
+
+                  document.getElementById("uploadResult").textContent = "送信中…（10～20秒かかる場合があります）";
+
+                  try {
+                    const url = "https://script.google.com/macros/s/AKfycbz_r_vCCnpHKgeMgDRIc0JBFx04oXjSSI2hxXoJS-g7BQYg5h-SvQ68YYdKyGDcaiZgTw/exec";  // ← あなたの最新URL
+
+                    const response = await fetch(url, {
+                      method: "POST",
+                      body: formData
+                    });
+
+                    const result = await response.text();
+                    if (result.includes("OK")) {
+                      document.getElementById("uploadResult").textContent = "提出が完了しました！お疲れさまでした。";
+                      document.getElementById("uploadForm").reset();
+                    } else {
+                      document.getElementById("uploadResult").textContent = "エラー: " + result + "（試験監督を呼んでください）";
+                    }
+                  } catch (error) {
+                    document.getElementById("uploadResult").textContent = "送信エラー: " + error.message + "（試験監督を呼んでください）";
+                  }
+                };
+                reader.readAsDataURL(file);  // base64読み込み開始
+              });
+            </script>
+
+            <p style="margin-top:2rem;">
+              ※提出が完了したら手を上げて試験監督に知らせてください。<br>
+              ※エラーが出たら試験監督を呼んでください。
+            </p>
+          </div>
+        </div>
+        </section>
+
+
+
+      </main>
+
+      <!-- 右ペイン：インデックス（常時表示） -->
+      <aside class="index-pane" aria-label="手順インデックス">
+        <div class="index-pane__inner">
+          <p class="index-pane__title">目次</p>
+
+          <div class="index-pane__hint">クリックで該当箇所へ移動します</div>
+          <nav>
+            <ol class="index-list"><!-- JSで自動生成 --></ol>
+          </nav>
+          
+          <!-- 解答チェックリスト（Sidebar版） -->
+          <div class="sidebar-checklist">
+            <h4 class="checklist-title">解答チェック用</h4>
+            <ul class="check-list-group mTop">
+              <li>
+                <label>
+                  <input type="checkbox" class="task-check" />
+                  <span class="task-name">q1.py</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" class="task-check" />
+                  <span class="task-name">q2.py</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" class="task-check" />
+                  <span class="task-name">q3.py</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" class="task-check" />
+                  <span class="task-name">q4.py</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" class="task-check" />
+                  <span class="task-name">q5.py</span>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" class="task-check" />
+                  <span class="task-name">q6.py</span>
+                </label>
+              </li>
+              <!-- <li>
+                <label>
+                  <input type="checkbox" class="task-check" />
+                  <span class="task-name">q7.py</span>
+                </label>
+              </li> -->
+            </ul>
+             <div class="checklist-progress">
+               <span class="progress-text">未解答: <span class="count-val">6</span></span>
+             </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- サイドメニュー -->
+  <aside class="sub-menu">
+    <h2 class="sub-menu__heading">オプション</h2>
+    <button class="close-btn" aria-label="閉じる"></button>
+
+    <ul class="sub-menu__list sub-menu-list">
+      <li class="sub-menu-list__item sub-menu-list__item--font-size">
+        <dl>
+          <dt>文字サイズ</dt>
+          <dd>
+            <ul class="font-size-button-list">
+              <li class="font-size-button-list__item font-size-button-list__item--large">大</li>
+              <li class="font-size-button-list__item font-size-button-list__item--medium on">
+                中
+              </li>
+              <li class="font-size-button-list__item font-size-button-list__item--small">小</li>
+            </ul>
+          </dd>
+        </dl>
+      </li>
+      <li class="sub-menu-list__item sub-menu-list__item--highlight">
+        <dl>
+          <dt>ハイライトモード</dt>
+          <dd><button class="toggle-button"></button></dd>
+        </dl>
+      </li>
+      <li class="sub-menu-list__item sub-menu-list__item--highlight">
+        <dl>
+          <dt>カラー変更</dt>
+          <dd>
+            <form action="#">
+              <input type="color" class="color-picker" value="#0a84ff" />
+              <button class="color-reset">初期化</button>
+            </form>
+          </dd>
+        </dl>
+      </li>
+    </ul>
+  </aside>
+
+  <div class="overlay"></div>
+
+  <footer class="site-footer">
+    <small>&copy; FrontierAcademy</small>
+  </footer>
+  <script src="js/main_timeline.js"></script>
+</body>
+
+</html>

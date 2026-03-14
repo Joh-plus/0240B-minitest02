@@ -1,0 +1,24 @@
+/* for universe.html */
+#about {
+  background-color: rgb(53, 39, 209);
+  color: white;
+  margin: 0;
+  padding: 1em;
+}
+#planet {
+  margin: 1em;
+}
+#planet div {
+  border: 1px solid gray;
+  padding: 1em;
+  margin: 0.5em;
+}
+#planet h2 {
+  border-bottom: 2px solid #9090ff;
+  background-color: #f0f0f0;
+  padding: 0.2em;
+}
+.desc {
+  margin-left: 3em;
+  border-bottom: 1px dotted #e0e0e0;
+}
